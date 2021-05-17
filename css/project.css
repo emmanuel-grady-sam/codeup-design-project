@@ -1,6 +1,44 @@
 body{
     background-color: #F0F0F0;
 }
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-family: 'Abel', sans-serif;
+}
+
+
+.nav-title {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+
+
+.nav-img {
+    padding: 0;
+    margin: auto;
+    max-width: 105px;
+    max-height: 105px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.title-holder{
+    text-align: center;
+}
+.title {
+    font-family: 'Anton', sans-serif;
+    width: fit-content;
+    margin: auto;
+}
+
+
 .dot {
     height: 105px;
     width: 105px;
@@ -18,9 +56,19 @@ body{
 .dot-develop{
     background-color: #EB9D3A;
 }
-.dot-host{
+.dot-support{
     background-color: #7CB06C;
 }
-.dot-support{
+.dot-host{
     background-color: #00ABA9;
 }
+
+.rezize-image {
+    max-width: 65px;
+}
+
+.image-container-1 img {
+    max-width: 300px;
+
+}
+

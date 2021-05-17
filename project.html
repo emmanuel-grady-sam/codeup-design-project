@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Code up Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
               integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
               crossorigin="anonymous">
@@ -11,51 +12,58 @@
         <link rel="stylesheet" href="css/project.css">
     </head>
     <body>
-        <header class="header">
-            <nav class="navbar">
-                <div>
-                    <img src="assets/images/logo.png">
-                </div>
-                <div>
-                    <h1>
-                    </h1>
-                </div>
-                <div>
-                    <ul class="d-flex">
-                        <li>
-                            Service
-                        </li>
-                        <li>
-                            Work
-                        </li>
-                        <li>
-                            Blog
-                        </li>
-                        <li>
-                            Contact
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <div>
-            <h1>
-                "Visual Design & Web Development"
+        <!--        NavBar-->
+        <nav class="navbar">
+            <div class="col-12 row">
+
+                <img class="nav-img" src="assets/images/logo.png">
+
+                <h2 class="col-12 nav-title"> codeup design
+                </h2>
+
+                <ul class="col-12 d-flex">
+                    <li>
+                        <a href="#">Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Work</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="title-holder">
+            <h1 class="title">
+                VISUAL DESIGN & WEB DEVELOPMENT
             </h1>
         </div>
-        <div>
-            <h1>
-                "From Park City, Utah"
-            </h1>
+        <br>
+        <div class="title-holder">
+            <h3 class="title">
+                FROM PARK CITY, UTAH
+            </h3>
+        </div>
+        <br>
+
+        <div class="row justify-content-center">
+<!--            <div class="col-12">-->
+            <div class=" dot dot-design">DESIGN</div>
+            <div class=" dot dot-develop">DEVELOP</div>
+<!--            </div>-->
+<!--            <div class="col-12">-->
+            <div class=" dot dot-support">SUPPORT</div>
+            <div class=" dot dot-host">HOST</div>
+<!--            </div>-->
+
         </div>
         <div>
-            <div class="dot dot-design">DESIGN</div>
-            <div class="dot dot-develop">DEVELOP</div>
-            <div class="dot dot-support">SUPPORT</div>
-            <div class="dot dot-host">HOST</div>
-        </div>
-        <div>
-            <div>
+            <div class="image-container-1">
                 <h5>Selected Work</h5>
                 <!--                picture 1-->
                 <div>
@@ -85,25 +93,25 @@
             <div>
                 <h5>The Last</h5>
                 <div>
-                    <img src="assets/images/mobile-phone.jpg">
+                    <img class="rezize-image" src="assets/images/mobile-phone.jpg">
                     <h5>THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
                 </div>
                 <div>
-                    <img src="assets/images/head.jpg">
+                    <img class="rezize-image" src="assets/images/head.jpg">
                     <h5>NIBBLER AWESOME WEBSITE TESTING</h5>
                 </div>
                 <div>
-                    <img src="assets/images/ipad.jpg">
+                    <img class="rezize-image" src="assets/images/ipad.jpg">
                     <h5>HOW TO GET GOOGLE TO LIKE YOU</h5>
                 </div>
                 <div>
                     <div>
-                        <img src="assets/images/twitter.png">
+                        <img id="twitter" src="assets/images/twitter.png">
                         <h6>LAST TWEET</h6>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                       labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                       laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
         </div>
