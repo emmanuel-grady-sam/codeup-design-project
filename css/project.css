@@ -15,7 +15,9 @@ a:-webkit-any-link {
     font-family: 'Abel', sans-serif;
     text-align: center;
 }
-
+.navbar{
+    justify-content: center;
+}
 
 .nav-img {
     padding: 0;
@@ -38,7 +40,9 @@ ul {
     margin: auto;
 }
 
-
+.dot-wrapper{
+padding: 20px 30px;
+}
 .dot {
     height: 105px;
     width: 105px;
@@ -63,12 +67,46 @@ ul {
     background-color: #00ABA9;
 }
 
-.rezize-image {
-    max-width: 65px;
+.resize-image {
+    max-width: 30px;
+
 }
 
-.image-container-1 img {
+.projects img {
     max-width: 300px;
+    padding: 0;
+    border: 3px solid #e6e6e6;
+
 
 }
+.container-title{
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Abel', sans-serif;
+}
+.last img {
+    max-width: 50px;
+    max-height: 50px;
+    border: 1px solid #f0f0f0;
+}
+.image-house {
+    justify-content: space-between;
+    align-items: end;
+    font-family: 'Abel', sans-serif;
+}
+.badge {
+    border-radius: 50px;
+    font-family: 'Anton', sans-serif;
+}
 
+#twitter {
+    border: none;
+    padding: 5px 10px;
+}
+.post-container {
+    font-family: 'Anton', sans-serif;
+}
+#twitter-post {
+    font-family: 'Abel', sans-serif;
+}
