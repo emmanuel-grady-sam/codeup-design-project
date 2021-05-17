@@ -1,0 +1,26 @@
+body{
+    background-color: #F0F0F0;
+}
+.dot {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Border: 7px solid white;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+.dot-design{
+    background-color: #E6563B;
+}
+.dot-develop{
+    background-color: #EB9D3A;
+}
+.dot-host{
+    background-color: #7CB06C;
+}
+.dot-support{
+    background-color: #00ABA9;
+}
